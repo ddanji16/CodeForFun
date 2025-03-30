@@ -1,15 +1,4 @@
-.box{
-      width: 150px;
-      height: 100px;
-      background-color: blue;
-      border: 1px solid black;
-      display:  flex;
-      justify-content: center;
-      
-    }
-h2{
-  text-align: center;
-}
+
 body{
-      background-color: antiquewhite;
+      background-color: gray;
 }
