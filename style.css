@@ -1,4 +1,36 @@
 
 body{
+
       background-color: gray;
+      margin: 0;
+      padding: 0;
+      animation: colors;
+      animation-duration: 2s;
+      
 }
+@keyframes colors{
+      
+      
+      
+      from{background-color: yellow}
+      to{background-color: green}
+      
+}
+
+.box{
+      background-color: antiquewhite;
+      border: 1px solid black;
+      animation: slide 2s ease 1s infinite;
+}
+@keyframes slide{
+      
+      /*
+      from{margin-top: 1000px}
+      to{margin-bottom: 40px}
+      */
+      
+      from{background-color: red}
+      to{background-color: blue}
+      
+}
+
