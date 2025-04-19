@@ -3,9 +3,12 @@ body{
 
       background-color: gray;
       margin: 0;
-      padding: 0;
+      paddi ng: 0;
+      
       animation: colors;
-      animation-duration: 2s;
+      animation-duration: 5s;
+      animation-iteration-count: infinite;
+      
       
 }
 @keyframes colors{
