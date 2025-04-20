@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>box</title>
+  
+  <style>
+  
+  body{
+    margin: 0;
+    padding: 0;
+  }
+    
+   .container{
+      width: 859px;
+      height: 400px;
+      background-color: gray;
+      
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+    }
+    .box{
+      width: 40px;
+      height: 100px;
+      background-color: red;
+      box-shadow: 10px 10px 10px blue;
+      border: 1px solid black;
+      text-align: center;
+      transition: 0.5s;
+    }
+    
+    .box:hover{
+      background-color: blue;
+      padding:30px 20px;
+      box-shadow: 10px 10px 5px crimson;
+      border: 6px double black;
+      
+    }
+    .buttons{
+      background-color: #969AC0;
+      width: 859px;
+      height: 200px;
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      
+      
+    }
+    button{
+     width: 60px;
+     height: 30px;
+     box-shadow: 10px 10px 10px;
+     background-color: aquamarine;
+     border-radius: 10px;
+     color: red
+     transition 5s;
+     
+    }
+    button:active{
+      background-color: blue;
+      box-shadow: 10px 10px 10px tomato;
+      border: 2px dotted black;
+    }
+    
+  
+    
+    
+  </style>
+ 
+</head>
+<body>
+
+
+
+
+
+
+  <div class="container">
+   <div id="box-1" class="box">1</div>
+   <div id="box-2" class="box">2</div>
+   <div id="box-3" class="box">3</div>
+   <div id="box-4" class="box">4</div>
+   <div id="box-5" class="box">5</div>
+   <div id="box-6" class="box">6</div>
+   <div id="box-7" class="box">7</div>
+   <div id="box-8" class="box">8</div>
+   <div id="box-9" class="box">9</div>
+   <div id="box-10" class="box">10</div>
+
+</div>
+
+<div class="buttons">
+  <button type="button" onclick="box1()">Box-1</button>
+  <button type="button" onclick="">box-2</button>
+  <button type="button" onclick="">box-3</button>
+  <button>box-4</button>
+  <button>box-5</button>
+  <button>box-6</button>
+  <button>box-7</button>
+  <button>box-8</button>
+  <button>box-9</button>
+  <button>box-10</button>
+</div>
+
+<script>
+  function box1(){
+  document.getElementById('box-1').style.display= "none";
+   
+  }
+  
+  
+  
+  
+</script>
+
+</body>
+
+</html>
